@@ -61,27 +61,27 @@
 .img1,
 .img2 {
   left: 419px;
-  background-image: url(./Frame\ 9.png);
+  background-image: url(https://github.com/naijilnj/homepage_ui/blob/main/images/Frame%209.png?raw=true);
 }
 .desktop-5-child,
 .desktop-5-item,
 .img2 {
   left: 716px;
-  background-image: url(./Frame\ 10.png);
+  background-image: url(https://github.com/naijilnj/homepage_ui/blob/main/images/Frame%2010.png?raw=true);
 }
 .desktop-5-child,
 .desktop-5-item {
   top: 445px;
   left: 122px;
   width: 866px;
-  background-image: url(./Frame\ 12.png);
+  background-image: url(https://github.com/naijilnj/homepage_ui/blob/main/images/Frame%2012.png?raw=true);
 }
 .desktop-5-item {
   top: 148px;
   left: 1013px;
   width: 306px;
   height: 569px;
-  background-image: url(./Frame\ 11.png);
+  background-image: url(https://github.com/naijilnj/homepage_ui/blob/main/images/Frame%2011.png?raw=true);
 }
 .desktop-5 {
   width: 100%;
