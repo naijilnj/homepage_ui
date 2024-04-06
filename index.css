@@ -1,0 +1,92 @@
+.help {
+  position: absolute;
+  top: calc(50% - 16.5px);
+  left: 1261px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  cursor: pointer;
+}
+.information-1-icon,
+.study-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.information-1-icon {
+  top: 30px;
+  left: 1231px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+.study-icon {
+  top: calc(50% - 15.5px);
+  left: 127px;
+  width: 161px;
+  height: 31.5px;
+}
+.help-parent {
+  position: absolute;
+  left:0px;
+  top: 0;
+  background-color: #f1f2f6;
+  width: 1440px;
+  height: 83px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 22px;
+  color: #8a8a8b;
+  font-family: var(--font-poppins);
+}
+.desktop-5-child,
+.desktop-5-item,
+.img,
+.img1,
+.img2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 148px;
+  left: 122px;
+  width: 272px;
+  height: 272px;
+  background-image: url(./Frame\ 8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.desktop-5-child,
+.desktop-5-item,
+.img1,
+.img2 {
+  left: 419px;
+  background-image: url(./Frame\ 9.png);
+}
+.desktop-5-child,
+.desktop-5-item,
+.img2 {
+  left: 716px;
+  background-image: url(./Frame\ 10.png);
+}
+.desktop-5-child,
+.desktop-5-item {
+  top: 445px;
+  left: 122px;
+  width: 866px;
+  background-image: url(./Frame\ 12.png);
+}
+.desktop-5-item {
+  top: 148px;
+  left: 1013px;
+  width: 306px;
+  height: 569px;
+  background-image: url(./Frame\ 11.png);
+}
+.desktop-5 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 1024px;
+  overflow: hidden;
+}

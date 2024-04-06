@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="./information.png"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-5">
+      <header class="help-parent" id="navbar">
+        <div class="help" id="helpText">Help</div>
+        <img
+          class="information-1-icon"
+          alt=""
+          src="./information.png"
+          id="information1Icon"
+        />
+
+        <img class="study-icon" alt="" src="./study.tech.png" />
+      </header>
+      <button class="img" id="img"></button>
+      <button class="img1" id="img1"></button>
+      <button class="img2" id="img2"></button>
+      <button class="desktop-5-child" id="frameButton"></button>
+      <button class="desktop-5-item" id="frameButton1"></button>
+    </div>
+
+    <script>
+      var helpText = document.getElementById("helpText");
+      if (helpText) {
+        helpText.addEventListener("click", function () {
+          window.location.href = "https://github.com/naijilnj";
+        });
+      }
+      
+      var information1Icon = document.getElementById("information1Icon");
+      if (information1Icon) {
+        information1Icon.addEventListener("click", function () {
+          window.location.href = "https://github.com/naijilnj";
+        });
+      }
+      
+      var img = document.getElementById("img");
+      if (img) {
+        img.addEventListener("click", function () {
+          window.open("https://chatwithwebsites.streamlit.app/");
+        });
+      }
+      
+      var img1 = document.getElementById("img1");
+      if (img1) {
+        img1.addEventListener("click", function () {
+          window.open("https://yt-transcript-summarizer.streamlit.app/");
+        });
+      }
+      
+      var img2 = document.getElementById("img2");
+      if (img2) {
+        img2.addEventListener("click", function () {
+          window.open("https://chat-with-textbook.streamlit.app/");
+        });
+      }
+      
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function () {
+          window.open("https://www.enfiq.com/");
+        });
+      }
+      
+      var frameButton1 = document.getElementById("frameButton1");
+      if (frameButton1) {
+        frameButton1.addEventListener("click", function () {
+          window.open("https://result-to-dashboard.streamlit.app/");
+        });
+      }
+      </script>
+  </body>
+</html>
