@@ -1,3 +1,14 @@
+.img:hover,
+.img1:hover,
+.img2:hover {
+  transform: scale(1.04); /* Adjust the value as per your preference */
+  transition: transform 0.2s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+.desktop-5-child:hover,
+.desktop-5-item:hover {
+    transform: scale(1.02); /* Adjust the value as per your preference */
+    transition: transform 0.2s ease-in-out; /* Adjust the duration and timing function as needed */
+}
 .help {
   position: absolute;
   top: calc(50% - 16.5px);
